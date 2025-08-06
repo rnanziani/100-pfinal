@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main style={{ marginTop: '80px', padding: '2rem' }}>
+      <main style={{ marginTop: '70px', padding: '2rem' }}>
         <Routes>
           <Route path="/" element={
             <div>
