@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import Activities from './pages/Activities';
 // import Rooms from './pages/Rooms';
 // import Restaurant from './pages/Restaurant';
 // import ContactPage from './pages/ContactPage';
@@ -13,6 +14,11 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Hero />} />
+          <Route path="/activities" element={
+            <div style={{ marginTop: '70px' }}>
+              <Activities />
+            </div>
+          } />
           <Route path="/rooms" element={
             <div style={{ marginTop: '70px', padding: '2rem' }}>
               <h1>Nuestras Habitaciones</h1>
